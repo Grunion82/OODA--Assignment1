@@ -24,6 +24,8 @@ int main(int argc, char* argv[]) {
 	p.equip(w2);
 	p.shootSecondary();
 
+	delete w1, w2, w3;
+
 	getchar();
 	return 0;
 }
